@@ -86,7 +86,7 @@ function RegistroForm() {
       email: email.trim(),
       password,
       options: {
-        emailRedirectTo: `${window.location.origin}/auth/callback?next=/panel`,
+        emailRedirectTo: `${window.location.origin}/auth/callback`,
         data: {
           full_name: name.trim(),
           persona,
